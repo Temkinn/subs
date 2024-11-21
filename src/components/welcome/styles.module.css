@@ -15,7 +15,6 @@
 	width: 100vw; min-height: 50px;
 	background-color: #16295D;
 	font-family: Montserrat;
-    font-size: 20px;
     color: #fff;
     display: flex;
 	justify-content: center;
@@ -67,27 +66,27 @@
 
 @media screen and (max-width: 425px) {
 	.title {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.subtitle {
-		font-size: 30px;
+		font-size: 28px;
 	}
 }
 
 @media screen and (max-width: 375px) {
 	.title {
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.subtitle {
-		font-size: 25px;
+		font-size: 23px;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.title {
-		font-size: 15px;
+		font-size: 13px;
 	}
 	.subtitle {
-		font-size: 20px;
+		font-size: 18px;
 	}
 }

@@ -38,6 +38,7 @@ src: url("./../fonts/MontserratAlternates-Medium.ttf");
 	line-height: 1.1;
 	color: #fff;
 	width: 80%;
+	padding-top: 40px;
 	margin-bottom: 50px;
 }
 
@@ -56,7 +57,7 @@ src: url("./../fonts/MontserratAlternates-Medium.ttf");
 
 .fields {
 	width: 80%;
-	height: 60%;
+	height: 40%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

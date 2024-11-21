@@ -38,6 +38,7 @@ src: url("./../fonts/MontserratAlternates-Medium.ttf");
 	line-height: 1.1;
 	color: #fff;
 	width: 80%;
+	padding-top: 70px;
 	margin-bottom: 50px;
 }
 
