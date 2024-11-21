@@ -181,13 +181,13 @@
 	gap: 5px;
 }
 .dot {
-	width: 6px; aspect-ratio: 1/1;
+	width: 8px; aspect-ratio: 1/1;
 	border: 2px #fff solid;
 	border-radius: 90px;
 }
 .full {
 	background-color: #fff;
-	width: 6px; aspect-ratio: 1/1;
+	width: 8px; aspect-ratio: 1/1;
 	border: 2px #fff solid;
 	border-radius: 90px;
 }
