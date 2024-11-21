@@ -1,0 +1,36 @@
+@font-face {
+	font-family: Monserrat bold;
+	src: url("./fonts/MontserratAlternates-Bold.ttf");
+}
+
+.page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+}
+
+.linkc1 {
+	width: 220px; height: 60px;
+	font-family: Monserrat bold;
+    background-color: #266665;
+	border: 3px #EAA73E solid;
+	border-radius: 90px;
+    cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.linkc2 {
+	width: 220px; height: 60px;
+	font-family: Monserrat bold;
+    background-color: #266665;
+	border: 3px #EAA73E solid;
+	border-radius: 90px;
+    cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
