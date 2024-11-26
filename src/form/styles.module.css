@@ -73,7 +73,7 @@ src: url("./../fonts/MontserratAlternates-Medium.ttf");
 	height: 40px;
 	background-color: #DFE4F0;
 	border-radius: 30px;
-	padding-left: 20px;
+	padding-left: 10px;
 	font-family: Montserrat-Regular;
 	font-size: 1.2em;
 	border: #DFE4F0 3px solid;
@@ -137,5 +137,11 @@ src: url("./../fonts/MontserratAlternates-Medium.ttf");
 	.home {
 		top: 15px;
 		left: 15px;
+	}
+}
+
+@media screen and (max-height: 600px){
+	.home {
+		display: none;
 	}
 }
