@@ -1,5 +1,5 @@
 import styles from "./styles.module.css"
-import second from "./../../../public/second.png"
+import second from "./../../assets/second.png"
 
 
 export default function Subscribe1({white, title, price, old}){

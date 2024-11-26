@@ -1,5 +1,5 @@
 import styles from "./styles.module.css"
-import forth from "./../../../public/forth.png"
+import forth from "./../../assets/forth.png"
 
 
 export default function Subscribe1({white, title, price, old}){

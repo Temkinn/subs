@@ -3,5 +3,5 @@
 	width: 100vw;
 	height: 100vh;
 	position: fixed;
-	background-image: url("./../../../public/parallax.png");
+	background-image: url("./../../assets/parallax.png");
 }

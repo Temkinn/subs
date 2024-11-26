@@ -21,7 +21,7 @@ src: url("./../fonts/MontserratAlternates-Medium.ttf");
 .container {
 	width: 100vw;
 	height: 100vh;
-	background-image: url("./../../public/form_background.png");
+	background-image: url("./../assets/form_background.png");
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
@@ -146,5 +146,11 @@ src: url("./../fonts/MontserratAlternates-Medium.ttf");
 	.home {
 		top: 15px;
 		left: 15px;
+	}
+}
+
+@media screen and (max-height: 600px){
+	.home {
+		display: none;
 	}
 }

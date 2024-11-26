@@ -21,7 +21,7 @@ src: url("./../fonts/MontserratAlternates-Medium.ttf");
 .container {
 	width: 100vw;
 	height: 100vh;
-	background-image: url("./../../public/form_background.png");
+	background-image: url("./../assets/form_background.png");
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
@@ -66,7 +66,8 @@ src: url("./../fonts/MontserratAlternates-Medium.ttf");
 }
 
 .name,
-.contact {
+.contact, 
+.type {
 	outline:none;
 	width: 100%;
 	height: 40px;
@@ -79,23 +80,14 @@ src: url("./../fonts/MontserratAlternates-Medium.ttf");
 	color: #000;
 }
 
-.question {
-	outline:none;
-	width: 100%;
-	background-color: #DFE4F0;
-	border-radius: 30px;
-	padding-left: 20px;
-	font-family: Montserrat-Regular;
-	font-size: 1.2em;
-	border: #DFE4F0 3px solid;
-	color: #000;
-}	
+	
 
 .name:focus,
-.contact:focus,
-.question:focus {
+.contact:focus, 
+.type:focus {
 	border: #FFD014 3px solid;
 }
+
 
 .send {
 	background-color:  #16295D;

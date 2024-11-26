@@ -1,6 +1,6 @@
 import styles from "./styles.module.css"
-import logo from "./../../../public/logo.png"
-import coffee from "./../../../public/coffee.png"
+import logo from "./../../assets/logo.png"
+import coffee from "./../../assets/coffee.png"
 
 export default function Welcome(){
 	return (
