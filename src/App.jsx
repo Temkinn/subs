@@ -9,25 +9,43 @@ import Subscribe2 from "./components/subscribe2/subscribe2";
 import Subscribe3 from "./components/subscribe3/subscribe3";
 import Subscribe4 from "./components/subscribe4/subscribe4";
 
+const monthes = [
+  'ЯНВАРЬ',
+  'ФЕВРАЛЬ',
+  'МАРТ',
+  'АПРЕЛЬ',
+  'МАЙ',
+  'ИЮНЬ',
+  'ИЮЛЬ',
+  'АВГУСТ',
+  'СЕНТЯБРЬ',
+  'ОКТЯБРЬ',
+  'НОЯБРЬ',
+  'ДЕКАБРЬ'
+]
+
 function Layout() {
+  const date = new Date()
+  const month = date.getUTCMonth()
+
   return (
     <div className={styles.page}>
       <Welcome />
       <Parallax />
       <Subscribe1 title="Кофе в зернах"
-          white="ФИЛЬТР ПОДПИСКА НОЯБРЬ" 
+          white={`ФИЛЬТР ПОДПИСКА ${monthes[month]}`}
           price="Мало"
           old="Много"/>
       <Subscribe2 title="Кофе в зернах"
-          white="МИКС ПОДПИСКА НОЯБРЬ" 
+          white={`МИКС ПОДПИСКА ${monthes[month]}`}
           price="Мало"
           old="Много"/>
       <Subscribe3 title="Кофе в зернах"
-          white="ЭСПРЕССО НОЯБРЬ" 
+          white={`ЭСПРЕССО ${monthes[month]}`}
           price="Мало"
           old="Много"/>
       <Subscribe4 title="Кофе в дрип пакетах"
-          white="ДРИП ПОДПИСКА НОЯБРЬ" 
+          white={`ДРИП ПОДПИСКА ${monthes[month]}`}
           price="Мало"
           old="Много"/>
 
