@@ -46,7 +46,7 @@ export default function Question(){
 
 	if(done == 3){
 		try{
-			WebApp.sendData(`subscribe_question#${name}(${contact}) спрашивает: ${question}`)
+			WebApp.sendData(`subscribe_questionᗰ${name}(${contact}) спрашивает: ${question}`)
 		} catch(e){
 			throw(e)
 		}

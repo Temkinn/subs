@@ -23,10 +23,10 @@ const monthes = [
   'НОЯБРЬ',
   'ДЕКАБРЬ'
 ]
-
-function Layout() {
   const date = new Date()
   const month = date.getUTCMonth()
+function Layout() {
+
 
   return (
     <div className={styles.page}>
@@ -51,7 +51,7 @@ function Layout() {
 
 
       <div className={styles.linkc1}>
-        <Link 
+        {/* <Link 
           to="/form"
           style={{
             textDecoration: "none",
@@ -62,7 +62,16 @@ function Layout() {
           }}
         >
         Подписаться
-        </Link>
+        </Link> */}
+        <a href="https://docs.google.com/forms/d/1Gx2PhXDeb8MmYds0EboKcs9T1BgHGB9QDdWEZ6sUdvg/edit"
+        style={{
+          textDecoration: "none",
+          color: "white",
+          fontWeight: "bold",
+          fontSize: "20px",
+          cursor: "pointer",
+        }}
+        >Подписаться</a>
       </div>
 
       <div className={styles.linkc2}>

@@ -32,7 +32,7 @@ export default function Form() {
 
     if (done == 3) {
       WebApp.sendData(
-        `subscribe#${name}(${contact}) хочет оформить подписку "${type}" на кофе`
+        `subscribeᗰ${name}(${contact}) хочет оформить подписку "${type}" на кофе`
       );
     } else {
       console.log("Все поля должны быть заполнены!");
